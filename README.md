@@ -1,5 +1,5 @@
 # AndroidInternetCheck
-A drop-in Class/AsyncTask for android that will check for a live internet connection (not just a network connection) and then either do nothing or open an error class you provide.
+A drop-in Class/AsyncTask for android that will check for a live internet connection (not just a network connection) and then open a class you pass either an error class or your main class depending on whether you are checking if the internet is broken or has returned.
 
 # Usage
 This class is very simply to use. Simply include in your Android project and then call from whatever activity you want to check the internet in as so, 

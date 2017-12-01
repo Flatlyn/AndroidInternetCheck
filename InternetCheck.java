@@ -14,8 +14,10 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- * Created by jameskrawczyk on 12/05/16.
- */
+ * Created by James A. Krawczyk
+ * Licensed under MIT
+ * Details see license file https://github.com/jameskrawczyk/AndroidInternetCheck/blob/master/LICENSE
+ **/
 public class InternetCheck extends AsyncTask<String, Void, Void> {
 
     //We need the app context to give some network things context
